@@ -31,7 +31,7 @@ class Version20130530032454 extends AbstractMigration
         $frame->addColumn('thread', 'integer');
         $frame->addColumn('frame', 'integer');
         $frame->addColumn('module', 'string', array('length' => 255));
-        $frame->addColumn('function', 'string', array('length' => 255));
+        $frame->addColumn('`function`', 'string', array('length' => 255));
         $frame->addColumn('file', 'string', array('length' => 255));
         $frame->addColumn('line', 'string', array('length' => 255));
         $frame->addColumn('offset', 'string', array('length' => 255));
